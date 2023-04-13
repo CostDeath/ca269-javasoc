@@ -3,15 +3,7 @@
  * which it operates
  */
 public class ClientApp implements App {
-    private final Person user;
-
-    /**
-     * Constructor for a client
-     * @param user - user using the client
-     */
-    ClientApp(Person user) {
-        this.user = user;
-    }
+    private Person user;
 
     /**
      * Retrieve the user's inbox
@@ -37,7 +29,7 @@ public class ClientApp implements App {
      */
     @Override
     public String demo() {
-        // Person 1 is the user using the client
+        user = new Person("cost", "2nd year comsci");
         Person userTwo = new Person("vedder", "philly student");
 
         // Test bios
@@ -110,8 +102,7 @@ public class ClientApp implements App {
     }
 
     public static void main(String[] args) {
-        Person user = new Person("cost", "2nd year comsci");
-        ClientApp app = new ClientApp(user);
+        ClientApp app = new ClientApp();
         System.out.println(app.demo());
     }
 }
