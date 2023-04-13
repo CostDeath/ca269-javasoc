@@ -1,0 +1,36 @@
+	Checking Bios Test!
+user 1's bio: 2nd year comsci
+
+	Sending Messages Test!
+cost: hi ved!
+
+	Deleting Messages Test!
+vedder: vedderhas deleted a post!
+
+	Following Users Test!
+user 1's following: [vedder]
+user 2's followers: []
+cost: cost has started following you!
+user 2's followers: [cost]
+
+	Unfollowing Users Test!
+user 1's following: []
+user 2's followers: [cost]
+cost: cost has stopped following you!
+user 2's followers: []
+
+	Liking Users Test!
+cost: cost has liked your profile!
+user 2's likes: [cost]
+
+	Custom Messages Test!
+vedder: liked ur profile bozo
+user 1's likes: [vedder]
+
+	Inbox & Outbox Stacking Test!
+cost: 1
+cost: 2
+cost: 3
+
+
+Demo concluded!

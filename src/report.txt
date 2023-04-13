@@ -1,0 +1,9 @@
+I think a highlight of my code is the use of an abstract GenericActivity class to prevent code duplication among different code.
+
+I think where my code lacks the most is that the inbox and outbox classes aren't able to get the functionality of the activities by themselves and rely on whatever statement called them to run the logic for the activities. This was done to follow the spec of the interfaces provided but I believe could've been done better.
+
+In future, if I were to continue with this project I'd make a graphic interface for users, most likely connected to a web interface. I'd also keep a feed of users' posts instead of just discarding them upon being read.
+
+I tested my code through running demo() in main(). In my demo(), I had both users that I created interact with each other and tested all the implemented features. This includes following, liking, creating messages and checking bios.
+
+For this project, I had help from a few of my colleagues to understand the spec for the project (Javier Florez, Sean Dagohoy and Cathal O'Grady) however they did not help with the functionality of the code written. I helped other people writing their code as they were unsure of how to implement some functionalities.
